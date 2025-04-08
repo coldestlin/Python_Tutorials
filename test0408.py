@@ -20,4 +20,4 @@ print(os.system("env"))
 
 print("--- call other py")
 
-python datatest.py
+python ./datatest.py
