@@ -15,11 +15,25 @@ print("----check df -h \n")
 
 print(os.system("df -h"))
 
-print("----\n")
+print("---pwd-\n")
 
 print(os.system("pwd"))
 
+print("--check detail folder --\n")
+
 print(os.system("ls -alh /Workspace/Repos/.internal/ed64b03102_commits"))
+
+print(os.system("du -d1 -h /Workspace/Repos/.internal/ed64b03102_commits"))
+
+print(os.system("ls -alh /Workspace/Repos/.internal/ed64b03102_commits/4bed78f1a021b3f385df81821225c67b60b26a93"))
+
+print("--check another --\n")
+
+print(os.system("ls -alh /Workspace/Repos/.internal/ed64b03102_commits/41aaba4bcef2f620c010bdf6ba3886ee9fdea0b7"))
+
+print(os.system("cd  /Workspace/Repos/.internal/ed64b03102_commits/41aaba4bcef2f620c010bdf6ba3886ee9fdea0b7 && git status"))
+
+
 
 print("--- check env\n")
 
