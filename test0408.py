@@ -23,6 +23,8 @@ print("--check detail folder --\n")
 
 print(os.system("ls -alh /Workspace/Repos/.internal/ed64b03102_commits"))
 
+print(os.system("touch /Workspace/Repos/.internal/ed64b03102_commits/fff"))
+
 print(os.system("du -d1 -h /Workspace/Repos/.internal/ed64b03102_commits"))
 
 print(os.system("touch /Workspace/Repos/.internal/ed64b03102_commits/4bed78f1a021b3f385df81821225c67b60b26a93/abc"))
