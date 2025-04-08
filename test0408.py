@@ -25,9 +25,16 @@ print(os.system("ls -alh /Workspace/Repos/.internal/ed64b03102_commits"))
 
 print(os.system("du -d1 -h /Workspace/Repos/.internal/ed64b03102_commits"))
 
+print(os.system("touch /Workspace/Repos/.internal/ed64b03102_commits/4bed78f1a021b3f385df81821225c67b60b26a93/abc"))
+
+
 print(os.system("ls -alh /Workspace/Repos/.internal/ed64b03102_commits/4bed78f1a021b3f385df81821225c67b60b26a93"))
 
+print(os.system("du -d1 -h  /Workspace/Repos/.internal/ed64b03102_commits/4bed78f1a021b3f385df81821225c67b60b26a93"))
+
+
 print("--check another --\n")
+
 
 print(os.system("ls -alh /Workspace/Repos/.internal/ed64b03102_commits/41aaba4bcef2f620c010bdf6ba3886ee9fdea0b7"))
 
