@@ -19,6 +19,8 @@ print("----\n")
 
 print(os.system("pwd"))
 
+print(os.system("ls -alh /Workspace/Repos/.internal/ed64b03102_commits")
+
 print("--- check env\n")
 
 print(os.system("env"))
@@ -34,14 +36,33 @@ print(os.system("ls -alh /Workspace/Repos/.internal"))
 
 
 print("-----check pod ip\n")
-print(os.system("ipconfig"))
+print(os.system("ifconfig"))
+      
 print(os.system("curl ip.sb"))
 
-      
+
+
 
 print("--- call other py")
 
-print(os.system("ls /databricks"))
+print(os.system("ls /databricks/python3"))
+
+
+print("---check /dbfs\n")
+print(os.system("ls -alh /dbfs"))
+
+print("--- check /Volumes")
+
+print(os.system("ls -alh /Volumes"))
+
+print("---check /workspace\n")
+
+print(os.system("ls -alh /Workspace"))
+
+print("--check /\n")
+print(os.system("ls -alh /"))
+
+      
 
 
 
