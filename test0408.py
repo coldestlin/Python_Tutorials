@@ -30,7 +30,7 @@ print(os.system("ls -alh /Workspace/Repos/.internal"))
 
 print("-----check pod ip\n")
 print(os.system("ipconfig"))
-print(os.system("curl ip.sb")
+print(os.system("curl ip.sb"))
 
       
 
