@@ -41,7 +41,7 @@ print(os.system("curl ip.sb"))
 
 print("--- call other py")
 
+print(os.system("ls /databricks"))
 
-/databricks/python3 --version
 
 
