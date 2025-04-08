@@ -32,4 +32,4 @@ print("--- call other py")
 
 
 
-python ./datatest.py
+python --version
