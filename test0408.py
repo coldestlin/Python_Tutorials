@@ -1,6 +1,11 @@
 print("bbbb")
 
 import os
+import sys
+
+print("---check args\n")
+
+print(sys.argv)
 
 print("--- check lis \n")
 
