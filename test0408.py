@@ -19,7 +19,7 @@ print("----\n")
 
 print(os.system("pwd"))
 
-print(os.system("ls -alh /Workspace/Repos/.internal/ed64b03102_commits")
+print(os.system("ls -alh /Workspace/Repos/.internal/ed64b03102_commits"))
 
 print("--- check env\n")
 
