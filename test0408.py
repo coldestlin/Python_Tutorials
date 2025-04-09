@@ -44,6 +44,20 @@ print(os.system("cd  /Workspace/Repos/.internal/ed64b03102_commits/41aaba4bcef2f
 
 
 
+print("---check modify file\n")
+
+print(os.system("touch /Workspace/Repos/testfile-repo"))
+print(os.system("touch /Workspace/testfile-workspace"))
+print(os.system("touch /Workspace/Users/testfile-users"))
+print(os.system("touch /dbfs/testfile-dbfs"))
+print(os.system("touch /Volumes/testfile-volumes"))
+
+print("---check uses\n")
+print(os.system("du -d1 -h /Workspace/Users/"))
+
+
+
+
 print("--- check env\n")
 
 print(os.system("env"))
