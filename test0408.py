@@ -23,6 +23,7 @@ print("--check detail folder --\n")
 
 print(os.system("ls -alh /Workspace/Repos/.internal/ed64b03102_commits"))
 
+##  touch: setting times of '/Workspace/Repos/.internal/ed64b03102_commits/fff': No such file or directory
 print(os.system("touch /Workspace/Repos/.internal/ed64b03102_commits/fff"))
 
 print(os.system("du -d1 -h /Workspace/Repos/.internal/ed64b03102_commits"))
@@ -47,10 +48,22 @@ print(os.system("cd  /Workspace/Repos/.internal/ed64b03102_commits/41aaba4bcef2f
 print("---check modify file\n")
 
 print(os.system("touch /Workspace/Repos/testfile-repo"))
+print(os.system("ls -alh /Workspace/Repos/"))
+
 print(os.system("touch /Workspace/testfile-workspace"))
+print(os.system("ls -alh /Workspace/"))
+
+
+## AsyncFlushFaliedException: One or more writes may have failed when writing to Databricks Workspace.
+## : 400 Bad Request: DIRECTORY_PROTECTED: Folder Users is protected
 print(os.system("touch /Workspace/Users/testfile-users"))
+
 print(os.system("touch /dbfs/testfile-dbfs"))
+print(os.system("ls -alh /dbfs/"))
+
 print(os.system("touch /Volumes/testfile-volumes"))
+print(os.system("ls -alh /Volumes/"))
+
 
 print("---check uses\n")
 print(os.system("du -d1 -h /Workspace/Users/"))
