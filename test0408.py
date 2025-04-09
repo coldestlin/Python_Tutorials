@@ -56,7 +56,7 @@ print(os.system("ls -alh /Workspace/"))
 
 ## AsyncFlushFaliedException: One or more writes may have failed when writing to Databricks Workspace.
 ## : 400 Bad Request: DIRECTORY_PROTECTED: Folder Users is protected
-print(os.system("touch /Workspace/Users/testfile-users"))
+## print(os.system("touch /Workspace/Users/testfile-users"))
 
 print(os.system("touch /dbfs/testfile-dbfs"))
 print(os.system("ls -alh /dbfs/"))
