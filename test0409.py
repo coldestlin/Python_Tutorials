@@ -41,8 +41,8 @@ print(os.system("ls -alh /Workspace/Repos/.internal/ed64b03102_commits/41aaba4bc
 print(os.system("cd  /Workspace/Repos/.internal/ed64b03102_commits/41aaba4bcef2f620c010bdf6ba3886ee9fdea0b7 && git status"))
 
 
-print("---check uses\n")
-print(os.system("du -d1 -h /Workspace/Users/"))
+# print("---check uses\n")
+# print(os.system("du -d1 -h /Workspace/Users/"))
 
 
 
