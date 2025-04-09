@@ -66,8 +66,8 @@ print(os.system("ls -alh /Volumes/"))
 
 
 print("---check uses\n")
-print(os.system("du -d1 -h /Workspace/Users/"))
-
+# 计算占用太大
+# print(os.system("du -d1 -h /Workspace/Users/"))
 
 
 
